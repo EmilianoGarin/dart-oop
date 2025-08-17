@@ -7,5 +7,5 @@ abstract class SmartDevice {
   void turnOn();
   void turnOff();
 
-  void printStatus() => print(_isOn ? 'Current status: ON' : 'Current status: OFF');  
+  void printStatus() => print(_isOn ? 'Status: ON' : 'Status: OFF');  
 }
