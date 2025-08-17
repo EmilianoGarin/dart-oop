@@ -7,5 +7,7 @@ abstract class SmartDevice {
   void turnOn();
   void turnOff();
 
-  void printStatus() => print(_isOn ? 'Status: ON' : 'Status: OFF');  
+  void printStatus() => print(_isOn ? 'Status: ON' : 'Status.toString()}: OFF');
+
+  //void printStatus() => print(_isOn ? '${runtimeType.toString()}: ON' : '${runtimeType.toString()}: OFF');  
 }
